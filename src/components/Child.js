@@ -10,12 +10,12 @@ const Child=({todos,handlefn})=>{
                {
                 todos.map(value=>(
                     <div className="child">
-                    <li>{value.title}</li>
+                    <li>{value.title}
                     {(!value.state) &&
                     <button onClick={()=>{
                         handlefn(value.id)
                     }}>Complete</button>
-                    }
+                    }</li>
                     </div>
                 ))
                }

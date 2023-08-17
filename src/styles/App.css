@@ -2,3 +2,6 @@
     display:flex;
     column-gap: 5px;
 }
+.child li>button{
+    background-color: aqua;
+}
